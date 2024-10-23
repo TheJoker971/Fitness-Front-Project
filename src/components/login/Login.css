@@ -1,0 +1,41 @@
+#login-error-message{
+    color: red;
+    font-size : 20px;
+    width: 80%;
+    margin : 0 auto;
+}
+
+#login-container {
+    display : block;
+    width : 50%;
+    margin : 15% auto;
+    padding : 25px;
+    border: .2em solid gray;
+    border-radius: 30px;
+}
+
+#login-container h1{
+    text-align : center;
+    font-size : 30px;
+}
+#login-container input,#login-container label{
+    width : 80%;
+    font-size: 24px;
+    margin : 0 10%;
+}
+
+#login-container input {
+    margin-bottom: 20px;
+}
+
+#login-container button{
+    width : 20%;
+    font-size : 24px;
+    margin : 10px 40%;
+    border-radius : 30px;
+}
+
+button:hover{
+    transform: scale(1.01);
+    cursor : pointer;
+}
